@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Face Qro | Pintacaritas y Magia para tus Fiestas</title>
+    <meta name="description"
+        content="Servicios profesionales de pintacaritas, maquillaje festivo y entretenimiento para niños en Querétaro. ¡Transformamos tu fiesta en un mundo de color!">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="business.business">
+    <meta property="og:url" content="https://happyfaceqro.com/">
+    <meta property="og:title" content="Happy Face Qro | Pintacaritas y Magia para tus Fiestas">
+    <meta property="og:description"
+        content="Servicios profesionales de pintacaritas, maquillaje festivo y entretenimiento para niños en Querétaro.">
+    <meta property="og:image" content="https://happyfaceqro.com/hero-bg.png">
+
+    <!-- Preload Hero Image for LCP -->
+    <link rel="preload" as="image" href="hero-bg.png">
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Happy Face Qro",
+      "image": "https://happyfaceqro.com/hero-bg.png",
+      "telephone": "+524421234567",
+      "email": "hola@happyfaceqro.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Querétaro",
+        "addressRegion": "Qro",
+        "addressCountry": "MX"
+      },
+      "priceRange": "$$",
+      "url": "https://happyfaceqro.com/"
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Outfit:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Icons (Phosphor Icons for a modern look) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="ph-fill ph-sparkle"></i> Happy Face Qro
+            </a>
+            <div class="nav-links">
+                <a href="#servicios">Servicios</a>
+                <a href="#galeria">Galería</a>
+                <a href="#contacto">Contacto</a>
+                <a href="#reservar" class="btn-primary-small">¡Reserva Ahora!</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="ph-fill ph-star"></i> Diversión Garantizada
+            </div>
+            <h1>¡Transformamos tu Fiesta en un Mundo de <span class="text-gradient">Color</span> y <span
+                    class="text-gradient-2">Magia!</span></h1>
+            <p>Pintacaritas profesional, barra de brillo, y maquillaje festivo para crear recuerdos inolvidables en
+                Querétaro.</p>
+            <div class="hero-buttons">
+                <a href="#reservar" class="btn-primary">
+                    <i class="ph-bold ph-calendar-check"></i> Consultar Disponibilidad
+                </a>
+                <a href="#galeria" class="btn-secondary">
+                    <i class="ph-bold ph-image"></i> Ver Galería
+                </a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <!-- This image is handled via CSS background on .hero or a separate img tag if we want parallax. 
+                 Using CSS background for the main section covering. -->
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Servicios <span class="text-gradient">Mágicos</span></h2>
+                <p>Elige la experiencia perfecta para tu celebración</p>
+            </div>
+
+            <div class="services-grid">
+
+                <!-- Category 1: Premium -->
+                <h3 class="category-title">🏆 Paquetes Premium</h3>
+                <p class="category-description">La experiencia completa y sin preocupaciones.</p>
+
+                <!-- Full Party -->
+                <div class="package-card card-featured">
+                    <div class="best-seller">★ BEST SELLER</div>
+                    <div class="package-header">
+                        <h3>Full Party</h3>
+                        <div class="price">$7,000</div>
+                    </div>
+                    <div class="package-body">
+                        <ul>
+                            <li><strong>3 Horas</strong> de diversión continua</li>
+                            <li><strong>Bloque 1:</strong> Pintacaritas + 1 Lab a elegir (Creative, Chef o Fashion)</li>
+                            <li><strong>Bloque 2:</strong> Fun Active Rally</li>
+                            <li>Coordinación total del entretenimiento</li>
+                        </ul>
+                    </div>
+                    <div class="package-footer">
+                        <div class="badges">
+                            <span class="badge badge-time"><i class="ph-bold ph-clock"></i> 3 Horas</span>
+                            <span class="badge badge-capacity"><i class="ph-bold ph-users"></i> Hasta 20 niños</span>
+                        </div>
+                        <button class="btn-primary w-full btn-reservar" data-service="Full Party">Reservar
+                            Paquete</button>
+                    </div>
+                </div>
+
+                <!-- Spacer div to keep grid alignment nice if needed, or just let CSS grid handle flow.
+                     Since we have 1 item here, it might span or sit alone. Let's make it span full width if possible or just center via CSS later if needed.
+                     For now standard grid card. -->
+
+                <!-- Category 2: Talleres Creativos -->
+                <h3 class="category-title">🎨 Talleres Creativos (Labs)</h3>
+                <p class="category-description">Experiencias únicas donde los niños crean y se llevan su obra.</p>
+
+                <!-- Creative Lab -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Creative Lab</h3>
+                        <div class="price">$4,500</div>
+                    </div>
+                    <div class="package-body">
+                        <ul>
+                            <li>Diseño de Gorras, Tote Bags o Neceseres</li>
+                            <li>Incluye parches, pines y decoraciones</li>
+                            <li>Montaje premium de mesa creativa</li>
+                            <li>Facilitador experto incluido</li>
+                        </ul>
+                    </div>
+                    <div class="package-footer">
+                        <div class="badges">
+                            <span class="badge badge-time"><i class="ph-bold ph-clock"></i> 1.5 Horas</span>
+                            <span class="badge badge-capacity"><i class="ph-bold ph-users"></i> 15 niños</span>
+                        </div>
+                        <button class="btn-secondary w-full btn-reservar" data-service="Creative Lab">Reservar
+                            Taller</button>
+                    </div>
+                </div>
+
+                <!-- Fashion Lab -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Fashion Lab</h3>
+                        <div class="price">$4,000</div>
+                    </div>
+                    <div class="package-body">
+                        <ul>
+                            <li>Diseño de Pulseras y Lentes decorados</li>
+                            <li>Cuentas, dijes y charms premium</li>
+                            <li>Estación de creación súper chic</li>
+                            <li>Facilitador experto incluido</li>
+                        </ul>
+                    </div>
+                    <div class="package-footer">
+                        <div class="badges">
+                            <span class="badge badge-time"><i class="ph-bold ph-clock"></i> 1.5 Horas</span>
+                            <span class="badge badge-capacity"><i class="ph-bold ph-users"></i> 15 niños</span>
+                        </div>
+                        <button class="btn-secondary w-full btn-reservar" data-service="Fashion Lab">Reservar
+                            Taller</button>
+                    </div>
+                </div>
+
+                <!-- Artist Time -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Artist Time</h3>
+                        <div class="price">$3,500</div>
+                    </div>
+                    <div class="package-body">
+                        <ul>
+                            <li>Pintura en caballetes y lienzos</li>
+                            <li>Pinturas, pinceles y mandiles incluidos</li>
+                            <li>Instalación tipo estudio de arte</li>
+                        </ul>
+                    </div>
+                    <div class="package-footer">
+                        <div class="badges">
+                            <span class="badge badge-time"><i class="ph-bold ph-clock"></i> 1.5 Horas</span>
+                            <span class="badge badge-capacity"><i class="ph-bold ph-users"></i> 20 niños</span>
+                        </div>
+                        <button class="btn-secondary w-full btn-reservar" data-service="Artist Time">Reservar
+                            Taller</button>
+                    </div>
+                </div>
+
+                <!-- Chef Lab -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Chef Lab</h3>
+                        <div class="price">$4,000</div>
+                    </div>
+                    <div class="package-body">
+                        <ul>
+                            <li>Decoración de Cupcakes y Brochetas</li>
+                            <li>Toppings, chispas y mandiles de chef</li>
+                            <li>Una experiencia deliciosa y divertida</li>
+                        </ul>
+                    </div>
+                    <div class="package-footer">
+                        <div class="badges">
+                            <span class="badge badge-time"><i class="ph-bold ph-clock"></i> 1.5 Horas</span>
+                            <span class="badge badge-capacity"><i class="ph-bold ph-users"></i> 15 niños</span>
+                        </div>
+                        <button class="btn-secondary w-full btn-reservar" data-service="Chef Lab">Reservar
+                            Taller</button>
+                    </div>
+                </div>
+
+                <!-- Funny Rally -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Funny Rally</h3>
+                        <div class="price">$4,000</div>
+                    </div>
+                    <div class="package-body">
+                        <ul>
+                            <li>Juegos físicos y dinámicas de equipo</li>
+                            <li>Estaciones de juego y pasarela</li>
+                            <li>Premios para participantes</li>
+                            <li>Animador profesional + Música</li>
+                        </ul>
+                    </div>
+                    <div class="package-footer">
+                        <div class="badges">
+                            <span class="badge badge-time"><i class="ph-bold ph-clock"></i> 1.5 Horas</span>
+                            <span class="badge badge-capacity"><i class="ph-bold ph-users"></i> 20 niños</span>
+                        </div>
+                        <button class="btn-secondary w-full btn-reservar" data-service="Funny Rally">Reservar
+                            Rally</button>
+                    </div>
+                </div>
+
+                <!-- Category 3: Servicios Clásicos -->
+                <h3 class="category-title">✨ Servicios Clásicos</h3>
+                <p class="category-description">Los favoritos que nunca fallan.</p>
+
+                <!-- Pintacaritas -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Pintacaritas</h3>
+                        <div class="price">$1,800</div>
+                    </div>
+                    <div class="package-body">
+                        <ul>
+                            <li>Maquillaje profesional hipoalergénico</li>
+                            <li>Catálogo de diseños para niños y niñas</li>
+                            <li>Aplicación de piedras y brillos (blings)</li>
+                        </ul>
+                    </div>
+                    <div class="package-footer">
+                        <div class="badges">
+                            <span class="badge badge-time"><i class="ph-bold ph-clock"></i> 2 Horas</span>
+                            <span class="badge badge-capacity"><i class="ph-bold ph-star"></i> Ilimitado</span>
+                        </div>
+                        <button class="btn-secondary w-full btn-reservar" data-service="Pintacaritas">Reservar</button>
+                    </div>
+                </div>
+
+                <!-- Glitter Bar Classic -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Glitter Bar Classic</h3>
+                        <div class="price">$3,500</div>
+                    </div>
+                    <div class="package-body">
+                        <ul>
+                            <li>Barra de brillos y gemas faciales</li>
+                            <li>Maquillaje Neón incluido</li>
+                            <li>Montaje de mesa profesional</li>
+                            <li>Ideal fiestas y bodas pequeñas</li>
+                        </ul>
+                    </div>
+                    <div class="package-footer">
+                        <div class="badges">
+                            <span class="badge badge-time"><i class="ph-bold ph-clock"></i> 2 Horas</span>
+                            <span class="badge badge-capacity"><i class="ph-bold ph-users"></i> 30-40 pax</span>
+                        </div>
+                        <button class="btn-secondary w-full btn-reservar"
+                            data-service="Glitter Bar Classic">Reservar</button>
+                    </div>
+                </div>
+
+                <!-- Glitter Bar Premium -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Glitter Bar Premium</h3>
+                        <div class="price">$5,800</div>
+                    </div>
+                    <div class="package-body">
+                        <ul>
+                            <li>Todo lo del Classic + Diseños avanzados</li>
+                            <li>Backdrop, Espejo con luz y decoración</li>
+                            <li>Tatuajes temporales personalizados</li>
+                            <li>Para eventos de alto impacto</li>
+                        </ul>
+                    </div>
+                    <div class="package-footer">
+                        <div class="badges">
+                            <span class="badge badge-time"><i class="ph-bold ph-clock"></i> 3 Horas</span>
+                            <span class="badge badge-capacity"><i class="ph-bold ph-users"></i> 60-80 pax</span>
+                        </div>
+                        <button class="btn-secondary w-full btn-reservar"
+                            data-service="Glitter Bar Premium">Reservar</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Service Disclaimer -->
+            <div class="service-disclaimer">
+                <i class="ph-bold ph-info"></i>
+                <p>Todos los servicios tienen opción a ampliar número de niños o tiempo con costo adicional. <br> Las
+                    fechas y horarios están sujetos a disponibilidad.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galeria" class="section section-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Galería de <span class="text-gradient-2">Sonrisas</span></h2>
+                <p>Cada foto cuenta una historia de alegría y diversión</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="img-facepaint.png" alt="Niña con maquillaje de tigre" width="400" height="300"
+                        loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Pintacaritas</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img-glitter.png" alt="Barra de Glitter" width="400" height="300" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Glitter Bar</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img-neon.png" alt="Fiesta Neón" width="400" height="300" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Fiesta Neón</span>
+                    </div>
+                </div>
+                <!-- Repeating for grid layout effect (in a real scenario we'd use different images) -->
+                <div class="gallery-item">
+                    <img src="img-facepaint.png" alt="Pintacaritas" width="400" height="300" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Eventos</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img-neon.png" alt="Fiesta Neón" width="400" height="300" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Diversión</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img-glitter.png" alt="Glitter" width="400" height="300" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Brillo</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full" style="text-align: center; margin-top: 40px;">
+                <a href="https://www.instagram.com/happyfaceqro/" target="_blank" class="btn-primary">
+                    <i class="ph-logo ph-instagram-logo"></i> Ver más en Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contacto" class="section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>¿Listo para la <span class="text-gradient">Diversión?</span></h2>
+                    <p>Contáctanos para reservar tu fecha o aclarar cualquier duda. ¡Nos encanta ser parte de tus
+                        momentos especiales!</p>
+
+                    <div class="info-item">
+                        <div class="icon-box-small">
+                            <i class="ph-fill ph-whatsapp-logo"></i>
+                        </div>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>+52 (442) 751 3785</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="icon-box-small">
+                            <i class="ph-fill ph-facebook-logo"></i>
+                        </div>
+                        <div>
+                            <h4>Facebook</h4>
+                            <p><a href="https://www.facebook.com/p/Happy-Face-Qro-100071186373246/?locale=es_LA"
+                                    target="_blank" style="color: inherit; text-decoration: none;">Happy Face Qro</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="icon-box-small">
+                            <i class="ph-fill ph-instagram-logo"></i>
+                        </div>
+                        <div>
+                            <h4>Instagram</h4>
+                            <p><a href="https://www.instagram.com/happyfaceqro/" target="_blank"
+                                    style="color: inherit; text-decoration: none;">@happyfaceqro</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="icon-box-small">
+                            <i class="ph-fill ph-map-pin"></i>
+                        </div>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <p>Querétaro, Qro. Méx.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container" id="reservar">
+                    <form class="contact-form">
+                        <h3>Reserva tu Fecha</h3>
+
+                        <div class="form-group">
+                            <label>Nombre Completo</label>
+                            <input type="text" id="name" placeholder="Tu nombre" required autocomplete="name">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Teléfono / WhatsApp</label>
+                            <input type="tel" id="phone" placeholder="Para confirmación" required autocomplete="tel">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Fecha del Evento</label>
+                                <input type="date" id="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Servicio de Interés</label>
+                                <select id="service" autocomplete="off">
+                                    <option value="" disabled selected>Selecciona una opción...</option>
+                                    <option>Full Party</option>
+                                    <option>Creative Lab</option>
+                                    <option>Fashion Lab</option>
+                                    <option>Artist Time</option>
+                                    <option>Chef Lab</option>
+                                    <option>Funny Rally</option>
+                                    <option>Pintacaritas</option>
+                                    <option>Glitter Bar Classic</option>
+                                    <option>Glitter Bar Premium</option>
+                                    <option>Otro / Personalizado</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Detalles Adicionales</label>
+                            <textarea id="details" rows="3" placeholder="Cuéntanos más sobre tu evento..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-primary w-full">
+                            <i class="ph-bold ph-paper-plane-right"></i> Enviar Solicitud
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="ph-fill ph-sparkle"></i> Happy Face Qro
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/p/Happy-Face-Qro-100071186373246/?locale=es_LA" target="_blank"><i
+                            class="ph-logo ph-facebook-logo"></i></a>
+                    <a href="https://www.instagram.com/happyfaceqro/" target="_blank"><i
+                            class="ph-logo ph-instagram-logo"></i></a>
+                    <a href="#" target="_blank"><i class="ph-logo ph-tiktok-logo"></i></a>
+                </div>
+                <p class="copyright">© 2026 Happy Face Qro. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
