@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage (main page) -->
+  <url>
+    <loc>https://happyfaceqro.com.mx/</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Servicios section (anchor link on homepage) -->
+  <url>
+    <loc>https://happyfaceqro.com.mx/#servicios</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Galería section (anchor link on homepage) -->
+  <url>
+    <loc>https://happyfaceqro.com.mx/#galeria</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contacto section (anchor link on homepage) -->
+  <url>
+    <loc>https://happyfaceqro.com.mx/#contacto</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Reservar section (anchor link on homepage) -->
+  <url>
+    <loc>https://happyfaceqro.com.mx/#reservar</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+</urlset>
