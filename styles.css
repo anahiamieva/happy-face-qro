@@ -175,7 +175,7 @@ button {
     justify-content: center;
     padding: 0 20px;
     padding-top: var(--header-height);
-    background: url('pintacaritas-queretaro-maquillaje-infantil.png') no-repeat center center/cover;
+    background: url('pintacaritas-queretaro-maquillaje-infantil.webp') no-repeat center center/cover;
     overflow: hidden;
 }
 
@@ -776,5 +776,185 @@ button {
 
     .services-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+/* ===================================================== */
+/*  Páginas internas de servicios (SEO)                  */
+/* ===================================================== */
+.page-hero {
+    position: relative;
+    min-height: 56vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: calc(var(--header-height) + 60px) 20px 60px;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.66));
+}
+
+.page-hero .hero-inner {
+    position: relative;
+    z-index: 2;
+    max-width: 820px;
+}
+
+.page-hero h1 {
+    font-size: 3.1rem;
+    line-height: 1.1;
+    margin-bottom: 16px;
+    color: var(--dark);
+}
+
+.page-hero p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 28px;
+}
+
+.breadcrumb {
+    font-size: 0.85rem;
+    color: #777;
+    margin-bottom: 14px;
+}
+
+.breadcrumb a {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.prose {
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+.prose h2 {
+    font-size: 2rem;
+    color: var(--dark);
+    margin: 36px 0 14px;
+}
+
+.prose h2:first-child {
+    margin-top: 0;
+}
+
+.prose h3 {
+    font-size: 1.3rem;
+    color: var(--secondary);
+    margin: 24px 0 8px;
+}
+
+.prose p {
+    margin-bottom: 16px;
+    color: #444;
+}
+
+.prose ul {
+    margin: 0 0 18px 20px;
+    color: #444;
+}
+
+.prose li {
+    margin-bottom: 8px;
+}
+
+.prose strong {
+    color: var(--dark);
+}
+
+.faq {
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+.faq details {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 14px;
+    padding: 18px 22px;
+    margin-bottom: 14px;
+}
+
+.faq summary {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: var(--dark);
+    list-style: none;
+}
+
+.faq summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq summary::after {
+    content: " +";
+    color: var(--primary);
+    float: right;
+}
+
+.faq details[open] summary::after {
+    content: " –";
+}
+
+.faq details[open] summary {
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.faq details p {
+    color: #555;
+    margin: 0;
+}
+
+.cta-final {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.cta-final h2 {
+    font-size: 2.2rem;
+    margin-bottom: 14px;
+    color: var(--dark);
+}
+
+.cta-final p {
+    color: #666;
+    margin-bottom: 26px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 22px;
+    justify-content: center;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.95rem;
+}
+
+.footer-links a:hover {
+    color: var(--primary);
+}
+
+@media (max-width: 768px) {
+    .page-hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .prose h2 {
+        font-size: 1.6rem;
     }
 }

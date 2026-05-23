@@ -1,41 +1,86 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-MX">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Face Qro | Pintacaritas y Magia para tus Fiestas</title>
+
+    <!-- SEO principal -->
+    <title>Eventos Infantiles y Pintacaritas en Querétaro | Happy Face Qro</title>
     <meta name="description"
-        content="Servicios profesionales de pintacaritas, maquillaje festivo y entretenimiento para niños en Querétaro. ¡Transformamos tu fiesta en un mundo de color!">
+        content="Eventos infantiles en Querétaro: pintacaritas, talleres creativos, glitter bar y animación profesional para fiestas inolvidables. ¡Reserva por WhatsApp al 442 751 3785!">
+    <link rel="canonical" href="https://happyfaceqro.com.mx/">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="author" content="Happy Face Qro">
+    <meta name="geo.region" content="MX-QUE">
+    <meta name="geo.placename" content="Santiago de Querétaro">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/logo.png">
+    <link rel="apple-touch-icon" href="/logo.png">
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="business.business">
-    <meta property="og:url" content="https://happyfaceqro.com/">
-    <meta property="og:title" content="Happy Face Qro | Pintacaritas y Magia para tus Fiestas">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_MX">
+    <meta property="og:site_name" content="Happy Face Qro">
+    <meta property="og:url" content="https://happyfaceqro.com.mx/">
+    <meta property="og:title" content="Eventos Infantiles y Pintacaritas en Querétaro | Happy Face Qro">
     <meta property="og:description"
-        content="Servicios profesionales de pintacaritas, maquillaje festivo y entretenimiento para niños en Querétaro.">
-    <meta property="og:image" content="https://happyfaceqro.com/pintacaritas-queretaro-maquillaje-infantil.png">
+        content="Pintacaritas, talleres creativos, glitter bar y animación profesional para fiestas infantiles en Querétaro.">
+    <meta property="og:image" content="https://happyfaceqro.com.mx/pintacaritas-queretaro-maquillaje-infantil.webp">
 
-    <!-- Preload Hero Image for LCP -->
-    <link rel="preload" as="image" href="pintacaritas-queretaro-maquillaje-infantil.png">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Eventos Infantiles y Pintacaritas en Querétaro | Happy Face Qro">
+    <meta name="twitter:description"
+        content="Pintacaritas, talleres creativos y glitter bar para fiestas infantiles en Querétaro.">
+    <meta name="twitter:image" content="https://happyfaceqro.com.mx/pintacaritas-queretaro-maquillaje-infantil.webp">
 
-    <!-- Schema Markup -->
+    <!-- Preload de la imagen principal (mejora velocidad de carga) -->
+    <link rel="preload" as="image" href="/pintacaritas-queretaro-maquillaje-infantil.webp">
+
+    <!-- Schema Markup: LocalBusiness -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
+      "@id": "https://happyfaceqro.com.mx/#happyfaceqro",
       "name": "Happy Face Qro",
-      "image": "https://happyfaceqro.com/pintacaritas-queretaro-maquillaje-infantil.png",
-      "telephone": "+524421234567",
-      "email": "hola@happyfaceqro.com",
+      "description": "Eventos infantiles en Querétaro: pintacaritas profesional, talleres creativos, glitter bar y animación para fiestas inolvidables.",
+      "url": "https://happyfaceqro.com.mx/",
+      "telephone": "+524427513785",
+      "image": "https://happyfaceqro.com.mx/pintacaritas-queretaro-maquillaje-infantil.webp",
+      "logo": "https://happyfaceqro.com.mx/logo.png",
+      "priceRange": "$$",
+      "currenciesAccepted": "MXN",
+      "paymentAccepted": "Efectivo, Transferencia",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Querétaro",
-        "addressRegion": "Qro",
+        "addressLocality": "Santiago de Querétaro",
+        "addressRegion": "Querétaro",
         "addressCountry": "MX"
       },
-      "priceRange": "$$",
-      "url": "https://happyfaceqro.com/"
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 20.5888,
+        "longitude": -100.3899
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Santiago de Querétaro" },
+        { "@type": "City", "name": "El Marqués" },
+        { "@type": "City", "name": "Corregidora" }
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "09:00",
+        "closes": "20:00"
+      },
+      "sameAs": [
+        "https://www.instagram.com/happyfaceqro/",
+        "https://www.facebook.com/p/Happy-Face-Qro-100071186373246/",
+        "https://www.tiktok.com/@happy.face.qro"
+      ]
     }
     </script>
 
@@ -46,11 +91,11 @@
         href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Outfit:wght@300;400;600;800&display=swap"
         rel="stylesheet">
 
-    <!-- Styles -->
-    <link rel="stylesheet" href="styles.css">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="/styles.css">
 
-    <!-- Icons (Phosphor Icons for a modern look) -->
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- Iconos (Phosphor Icons) -->
+    <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
 </head>
 
 <body>
@@ -58,16 +103,18 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="#" class="logo">
+            <a href="/" class="logo">
                 <i class="ph-fill ph-sparkle"></i> Happy Face Qro
             </a>
             <div class="nav-links">
-                <a href="#servicios">Servicios</a>
-                <a href="#galeria">Galería</a>
-                <a href="#contacto">Contacto</a>
-                <a href="#reservar" class="btn-primary-small">¡Reserva Ahora!</a>
+                <a href="/pintacaritas-queretaro/">Pintacaritas</a>
+                <a href="/talleres-creativos-ninos-queretaro/">Talleres</a>
+                <a href="/glitter-bar-queretaro/">Glitter Bar</a>
+                <a href="/recuerdos-personalizados-queretaro/">Personalizados</a>
+                <a href="/#contacto">Contacto</a>
+                <a href="/#reservar" class="btn-primary-small">¡Reserva Ahora!</a>
             </div>
-            <button class="mobile-menu-btn" aria-label="Menu">
+            <button class="mobile-menu-btn" aria-label="Abrir menú">
                 <i class="ph ph-list"></i>
             </button>
         </div>
@@ -80,10 +127,9 @@
             <div class="hero-badge">
                 <i class="ph-fill ph-star"></i> Diversión Garantizada
             </div>
-            <h1>¡Transformamos tu Fiesta en un Mundo de <span class="text-gradient">Color</span> y <span
-                    class="text-gradient-2">Magia!</span></h1>
-            <p>Pintacaritas profesional, barra de brillo, y maquillaje festivo para crear recuerdos inolvidables en
-                Querétaro.</p>
+            <h1>Eventos Infantiles y Pintacaritas en <span class="text-gradient-2">Querétaro</span></h1>
+            <p>Pintacaritas profesional, talleres creativos, glitter bar y animación que transforman tu fiesta en un
+                mundo de color y magia. ¡Diversión garantizada para los peques!</p>
             <div class="hero-buttons">
                 <a href="#reservar" class="btn-primary">
                     <i class="ph-bold ph-calendar-check"></i> Consultar Disponibilidad
@@ -145,6 +191,7 @@
                 <!-- Category 2: Talleres Creativos -->
                 <h3 class="category-title">🎨 Talleres Creativos (Labs)</h3>
                 <p class="category-description">Experiencias únicas donde los niños crean y se llevan su obra.</p>
+                <p class="category-description"><a href="/talleres-creativos-ninos-queretaro/" style="color:var(--primary);font-weight:600;">Ver todo sobre nuestros talleres creativos para niños en Querétaro →</a></p>
 
                 <!-- Creative Lab -->
                 <div class="package-card">
@@ -267,6 +314,7 @@
                 <!-- Category 3: Servicios Clásicos -->
                 <h3 class="category-title">✨ Servicios Clásicos</h3>
                 <p class="category-description">Los favoritos que nunca fallan.</p>
+                <p class="category-description"><a href="/pintacaritas-queretaro/" style="color:var(--primary);font-weight:600;">Pintacaritas en Querétaro</a> · <a href="/glitter-bar-queretaro/" style="color:var(--primary);font-weight:600;">Glitter Bar en Querétaro</a></p>
 
                 <!-- Pintacaritas -->
                 <div class="package-card">
@@ -359,40 +407,40 @@
 
             <div class="gallery-grid">
                 <div class="gallery-item">
-                    <img src="pintacaritas-queretaro-maquillaje-infantil.png" alt="Maquillaje de pintacaritas y pintacaras profesional en Querétaro para fiestas infantiles" width="400" height="300" loading="lazy">
+                    <img src="pintacaritas-queretaro-maquillaje-infantil.webp" alt="Maquillaje de pintacaritas y pintacaras profesional en Querétaro para fiestas infantiles" width="400" height="300" loading="lazy">
                 </div>
                 <div class="gallery-item">
-                    <img src="glitter-bar-eventos-bodas-queretaro.png" alt="Servicio de Glitter Bar y barra de brillos para bodas y eventos en Querétaro" width="400" height="300" loading="lazy">
+                    <img src="glitter-bar-eventos-bodas-queretaro.webp" alt="Servicio de Glitter Bar y barra de brillos para bodas y eventos en Querétaro" width="400" height="300" loading="lazy">
                 </div>
                 <div class="gallery-item">
-                    <img src="talleres-creativos-ninos-fiestas-queretaro.png" alt="Talleres creativos y artísticos para niños en fiestas de cumpleaños Querétaro" width="400" height="300" loading="lazy">
+                    <img src="talleres-creativos-ninos-fiestas-queretaro.webp" alt="Talleres creativos y artísticos para niños en fiestas de cumpleaños Querétaro" width="400" height="300" loading="lazy">
                 </div>
                 <div class="gallery-item">
-                    <img src="fiesta-neon-maquillaje-queretaro.png" alt="Servicio de maquillaje para Fiesta Neón en Querétaro" width="400" height="300" loading="lazy">
+                    <img src="fiesta-neon-maquillaje-queretaro.webp" alt="Servicio de maquillaje para Fiesta Neón en Querétaro" width="400" height="300" loading="lazy">
                 </div>
                 <div class="gallery-item">
-                    <img src="maquillaje-artistico-infantil-queretaro.png" alt="Maquillaje artístico de fantasía para eventos infantiles en Querétaro" width="400" height="300" loading="lazy">
+                    <img src="maquillaje-artistico-infantil-queretaro.webp" alt="Maquillaje artístico de fantasía para eventos infantiles en Querétaro" width="400" height="300" loading="lazy">
                 </div>
                 <div class="gallery-item">
-                    <img src="animacion-eventos-infantiles-queretaro.png" alt="Animación y entretenimiento para eventos infantiles en Querétaro" width="400" height="300" loading="lazy">
+                    <img src="animacion-eventos-infantiles-queretaro.webp" alt="Animación y entretenimiento para eventos infantiles en Querétaro" width="400" height="300" loading="lazy">
                 </div>
                 <div class="gallery-item">
-                    <img src="taller-arte-pintura-ninos-queretaro.png" alt="Taller de arte y pintura Artist Time para niños" width="400" height="300" loading="lazy">
+                    <img src="taller-arte-pintura-ninos-queretaro.webp" alt="Taller de arte y pintura Artist Time para niños" width="400" height="300" loading="lazy">
                 </div>
                 <div class="gallery-item">
-                    <img src="glitter-bar-premium-queretaro.png" alt="Glitter Bar zona premium para eventos corporativos y bodas" width="400" height="300" loading="lazy">
+                    <img src="glitter-bar-premium-queretaro.webp" alt="Glitter Bar zona premium para eventos corporativos y bodas" width="400" height="300" loading="lazy">
                 </div>
                 <div class="gallery-item">
-                    <img src="funny-rally-juegos-fiestas-infantiles.png" alt="Rally de juegos divertidos Funny Rally para fiestas infantiles" width="400" height="300" loading="lazy">
+                    <img src="funny-rally-juegos-fiestas-infantiles.webp" alt="Rally de juegos divertidos Funny Rally para fiestas infantiles" width="400" height="300" loading="lazy">
                 </div>
                 <div class="gallery-item">
-                    <img src="chef-lab-decoracion-cupcakes-queretaro.png" alt="Taller Chef lab de decoración de cupcakes para celebraciones de niños en Querétaro" width="400" height="300" loading="lazy">
+                    <img src="chef-lab-decoracion-cupcakes-queretaro.webp" alt="Taller Chef lab de decoración de cupcakes para celebraciones de niños en Querétaro" width="400" height="300" loading="lazy">
                 </div>
                 <div class="gallery-item">
-                    <img src="fashion-lab-actividades-ninos-queretaro.png" alt="Fashion Lab creación de bisutería infantil y actividades en Querétaro" width="400" height="300" loading="lazy">
+                    <img src="fashion-lab-actividades-ninos-queretaro.webp" alt="Fashion Lab creación de bisutería infantil y actividades en Querétaro" width="400" height="300" loading="lazy">
                 </div>
                 <div class="gallery-item">
-                    <img src="diversion-garantizada-eventos-queretaro.png" alt="Diversión garantizada con Happy Face Qro en todo tipo de eventos" width="400" height="300" loading="lazy">
+                    <img src="diversion-garantizada-eventos-queretaro.webp" alt="Diversión garantizada con Happy Face Qro en todo tipo de eventos" width="400" height="300" loading="lazy">
                 </div>
             </div>
 
@@ -475,22 +523,22 @@
                         <h3>Reserva tu Fecha</h3>
 
                         <div class="form-group">
-                            <label>Nombre Completo</label>
+                            <label for="name">Nombre Completo</label>
                             <input type="text" id="name" placeholder="Tu nombre" required autocomplete="name">
                         </div>
 
                         <div class="form-group">
-                            <label>Teléfono / WhatsApp</label>
+                            <label for="phone">Teléfono / WhatsApp</label>
                             <input type="tel" id="phone" placeholder="Para confirmación" required autocomplete="tel">
                         </div>
 
                         <div class="form-row">
                             <div class="form-group">
-                                <label>Fecha del Evento</label>
+                                <label for="date">Fecha del Evento</label>
                                 <input type="date" id="date" required>
                             </div>
                             <div class="form-group">
-                                <label>Servicio de Interés</label>
+                                <label for="service">Servicio de Interés</label>
                                 <select id="service" autocomplete="off">
                                     <option value="" disabled selected>Selecciona una opción...</option>
                                     <option>Full Party</option>
@@ -508,7 +556,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label>Detalles Adicionales</label>
+                            <label for="details">Detalles Adicionales</label>
                             <textarea id="details" rows="3" placeholder="Cuéntanos más sobre tu evento..."></textarea>
                         </div>
 
@@ -528,14 +576,21 @@
                 <div class="footer-logo">
                     <i class="ph-fill ph-sparkle"></i> Happy Face Qro
                 </div>
+                <nav class="footer-links" aria-label="Servicios">
+                    <a href="/">Inicio</a>
+                    <a href="/pintacaritas-queretaro/">Pintacaritas Querétaro</a>
+                    <a href="/talleres-creativos-ninos-queretaro/">Talleres Creativos</a>
+                    <a href="/glitter-bar-queretaro/">Glitter Bar Querétaro</a>
+                    <a href="/recuerdos-personalizados-queretaro/">Recuerdos Personalizados</a>
+                </nav>
                 <div class="footer-social">
-                    <a href="https://www.facebook.com/p/Happy-Face-Qro-100071186373246/?locale=es_LA" target="_blank"><i
+                    <a href="https://www.facebook.com/p/Happy-Face-Qro-100071186373246/?locale=es_LA" target="_blank" rel="noopener" aria-label="Facebook"><i
                             class="ph-logo ph-facebook-logo"></i></a>
-                    <a href="https://www.instagram.com/happyfaceqro/" target="_blank"><i
+                    <a href="https://www.instagram.com/happyfaceqro/" target="_blank" rel="noopener" aria-label="Instagram"><i
                             class="ph-logo ph-instagram-logo"></i></a>
-                    <a href="https://www.tiktok.com/@happy.face.qro" target="_blank"><i class="ph-logo ph-tiktok-logo"></i></a>
+                    <a href="https://www.tiktok.com/@happy.face.qro" target="_blank" rel="noopener" aria-label="TikTok"><i class="ph-logo ph-tiktok-logo"></i></a>
                 </div>
-                <p class="copyright">© 2026 Happy Face Qro. Todos los derechos reservados.</p>
+                <p class="copyright">© 2026 Happy Face Qro · Eventos infantiles en Querétaro. Todos los derechos reservados.</p>
             </div>
         </div>
     </footer>
