@@ -1,20 +1,38 @@
-# Allow all search engine bots
+# Permitir todos los buscadores tradicionales
 User-agent: *
 Allow: /
 
-# Specify sitemap location
+# Ubicación del sitemap
 Sitemap: https://happyfaceqro.com.mx/sitemap.xml
 
-# Additional directives for specific crawlers (optional)
-# Block AI crawlers if desired (comment out if you want them to index)
+# Crawlers de IA — permitidos explícitamente para visibilidad
+# en ChatGPT, Claude, Perplexity y AI Overviews de Google.
 User-agent: GPTBot
-Disallow: /
+Allow: /
 
-User-agent: CCBot
-Disallow: /
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
 
 User-agent: anthropic-ai
-Disallow: /
+Allow: /
 
 User-agent: Claude-Web
-Disallow: /
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
