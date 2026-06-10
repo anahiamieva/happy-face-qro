@@ -9,18 +9,28 @@
 
 ## Resumen Ejecutivo
 
-### SEO Health Score: **80 / 100** 🟢
+### SEO Health Score: **85 / 100** 🟢 _(subió de 80 tras los quick wins del 10-jun-2026)_
 
-| Categoría | Peso | Score | Aporte |
-|-----------|------|-------|--------|
-| SEO Técnico | 22% | 88 | 19.4 |
-| Calidad de Contenido | 23% | 75 | 17.3 |
-| SEO On-Page | 20% | 85 | 17.0 |
-| Schema / Datos estructurados | 10% | 82 | 8.2 |
-| Performance (CWV) | 10% | 85 | 8.5 |
-| Preparación para IA (GEO) | 10% | 50 | 5.0 |
-| Imágenes | 5% | 88 | 4.4 |
-| **TOTAL** | | | **~80** |
+| Categoría | Peso | Antes | **Ahora** | Aporte |
+|-----------|------|-------|-----------|--------|
+| SEO Técnico | 22% | 88 | **90** | 19.8 |
+| Calidad de Contenido | 23% | 75 | **75** | 17.3 |
+| SEO On-Page | 20% | 85 | **88** | 17.6 |
+| Schema / Datos estructurados | 10% | 82 | **88** | 8.8 |
+| Performance (CWV) | 10% | 85 | **85** | 8.5 |
+| Preparación para IA (GEO) | 10% | 50 | **88** | 8.8 |
+| Imágenes | 5% | 88 | **88** | 4.4 |
+| **TOTAL** | | **80** | **~85** | |
+
+### Cambios aplicados y verificados en vivo (10-jun-2026)
+- ✅ `robots.txt`: crawlers de IA desbloqueados (GEO **50 → 88**).
+- ✅ `llms.txt` publicado (HTTP 200).
+- ✅ Schema: `EntertainmentBusiness` + `AggregateOffer` en Talleres (Schema **82 → 88**).
+- ✅ Meta descriptions ≤160 chars (On-Page **85 → 88**).
+- ✅ Redirecciones canónicas confirmadas: `http→https` 301 y `www→apex` 301 (Técnico **88 → 90**).
+- ✅ 29 MB de PNG fuera del repo.
+
+**Techo pendiente:** la única categoría sin mover es **Contenido (75)** — depende de añadir reseñas reales y sección "Nosotros", que requieren tu input.
 
 Es un sitio **sólido y bien optimizado** para su tamaño. La estructura on-page, el schema y las imágenes están en muy buen estado. Los dos frenos principales son: (1) el bloqueo autoinfligido de crawlers de IA y (2) la falta de señales de confianza/reseñas (E-E-A-T).
 
