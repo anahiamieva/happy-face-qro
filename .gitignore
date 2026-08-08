@@ -16,5 +16,17 @@ talleres-creativos-ninos-fiestas-queretaro.png
 # Sistema
 .DS_Store
 
-# Documentos internos (no se publican)
+# ---------------------------------------------------------------------------
+# Documentos internos — NUNCA se publican.
+#
+# Este repositorio se despliega tal cual como sitio web: todo archivo rastreado
+# queda accesible en https://happyfaceqro.com.mx/<ruta>, y el robots.txt invita
+# explícitamente a los buscadores y a los crawlers de IA a rastrearlo.
+#
+# Por eso cualquier documento de estrategia, precios, identidad de marca o
+# material de trabajo va aquí abajo. Ante la duda, ignóralo.
+# ---------------------------------------------------------------------------
 _docs-internas/
+Sistema-Contenido/
+Identidad-Marca/
+PLAN-SEO-*.md
